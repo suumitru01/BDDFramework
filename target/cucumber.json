@@ -1,0 +1,262 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-15T11:31:07.793Z",
+        "line": 11,
+        "name": "Search for Items and Validate result",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-result;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.afterSelTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6332000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on GrrenKart home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_grren_kart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3278000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search for Cucumber vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_search_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3063000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Cucumber item will dispalyed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefination.item_will_dispalyed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SelTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T11:31:20.729Z",
+        "line": 12,
+        "name": "Search for Items and Validate result",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-result;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.afterSelTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5039000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on GrrenKart home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_grren_kart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3227000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search for Brinjal vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_search_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3056000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Brinjal item will dispalyed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefination.item_will_dispalyed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SelTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T11:31:32.171Z",
+        "line": 15,
+        "name": "Search for Items and move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-move-to-checkout-page",
+        "after": [
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.afterSelTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5077000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on GrrenKart home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_on_grren_kart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3242000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User search for Brocolli vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brocolli",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_search_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2180000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Added items to cart",
+            "match": {
+              "location": "stepDefinations.StepDefination.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3152000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User proceed to checkout",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Brocolli item will dispalyed on cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brocolli",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefination.item_will_dispalyed_on_cart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SelTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and Place Order for vegetables",
+    "description": "",
+    "id": "search-and-place-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Search.feature",
+    "tags": []
+  }
+]
